@@ -1,12 +1,57 @@
-# React + Vite
+# 🎓 BTech Walleh - Campus Ambassador Internship Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hey there! 👋  
+This is a web page built as part of an internship task for the BTech Walleh Campus Ambassador program.
 
-Currently, two official plugins are available:
+🔗 **Live Site**: [Click here](https://btech-walleh-ambassador-git-main-anusha-srivastavas-projects.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 💡 What’s Inside?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📢 Animated announcements section  
+- 📆 Upcoming events in cool hover cards  
+- 🌍 Impact stats section (like 500+ ambassadors!)  
+- 🏆 Colorful benefit cards  
+- 🧠 Reasons to join, shown in a clean layout  
+- 📱 Fully responsive (mobile friendly)
+
+---
+
+## 🛠 Tech Used
+
+- React.js ⚛️  
+- Tailwind CSS 💨  
+- Lucide Icons 🎨  
+- Deployed on Vercel 🚀
+
+---
+
+## 🧪 How to Run Locally
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/AnushaSrivastava273/BtechWalleh-ambassador.git
+   cd BtechWalleh-ambassador
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the local server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 📌 Notes
+
+📝 This project is not official — it was made as a task submission during the internship with BTech Walleh.  
+Created by: [Anusha Srivastava](mailto:anushaa.s.723@gmail.com)
+
+---
