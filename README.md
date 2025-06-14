@@ -3,7 +3,7 @@
 Hey there! 👋  
 This is a web page built as part of an internship task for the BTech Walleh Campus Ambassador program.
 
-🔗 **Live Site**: [Click here](https://btech-walleh-ambassador-git-main-anusha-srivastavas-projects.vercel.app/)
+🔗 **Live Site**: [Click here](https://btech-walleh-ambassador.vercel.app/)
 
 ---
 
