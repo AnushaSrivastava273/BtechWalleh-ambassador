@@ -1,57 +1,70 @@
-# 🎓 BTech Walleh - Campus Ambassador Internship Task
+# 🎓 Campus Ambassador Portal - BTech Walleh
 
-Hey there! 👋  
-This is a web page built as part of an internship task for the BTech Walleh Campus Ambassador program.
+A minimal and elegant web portal built with React for managing BTech Walleh's Campus Ambassador Program.
 
-🔗 **Live Site**: [Click here](https://btech-walleh-ambassador.vercel.app/)
+## 🚀 Functionality Overview
 
----
+- 📢 View real-time announcements like orientation invites, referral contests, and task updates.
+- 📝 Register as a Campus Ambassador via a simple form (stored locally).
+- 💡 Learn about program perks and the impact through a dynamic homepage.
+- 🌈 Smooth UI with Tailwind CSS, responsive design, and subtle animations.
 
-## 💡 What’s Inside?
+## 🧩 Component Breakdown
 
-- 📢 Animated announcements section  
-- 📆 Upcoming events in cool hover cards  
-- 🌍 Impact stats section (like 500+ ambassadors!)  
-- 🏆 Colorful benefit cards  
-- 🧠 Reasons to join, shown in a clean layout  
-- 📱 Fully responsive (mobile friendly)
+### 1. `Announcements.jsx`
+- Displays a list of latest announcements using cards.
+- Each card includes: title, date, description, and a Megaphone icon.
+- Animations applied on mount.
 
----
+### 2. `Register.jsx`
+- A full-screen form for ambassadors to register.
+- Fields: Name, Email, College, Phone, LinkedIn.
+- Form data is stored in `localStorage`.
+- Shows success message after submission.
 
-## 🛠 Tech Used
+### 3. `Home.jsx`
+- Hero section with program intro.
+- Benefits grid (Connect & Grow, Earn Recognition, Organize Events).
+- "Why Join Us?" section with bullet reasons and current impact stats.
+- Uses Lucide icons and Tailwind utilities.
 
-- React.js ⚛️  
-- Tailwind CSS 💨  
-- Lucide Icons 🎨  
-- Deployed on Vercel 🚀
+## 🛠️ Tech Stack
 
----
+- React (with Hooks)
+- Tailwind CSS
+- Lucide-react (for icons)
+- Vite (for lightning-fast development)
 
-## 🧪 How to Run Locally
+## 📦 Setup Instructions
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/AnushaSrivastava273/BtechWalleh-ambassador.git
-   cd BtechWalleh-ambassador
-   ```
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/campus-ambassador-portal.git
+cd campus-ambassador-portal
+```
 
 2. Install dependencies:
-   ```bash
-   npm install
-   ```
 
-3. Start the local server:
-   ```bash
-   npm run dev
-   ```
+```bash
+npm install
+```
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+3. Start the development server:
 
----
+```bash
+npm run dev
+```
 
-## 📌 Notes
+Then open [http://localhost:5173](http://localhost:5173) to view the app.
 
-📝 This project is not official — it was made as a task submission during the internship with BTech Walleh.  
-Created by: [Anusha Srivastava](mailto:anushaa.s.723@gmail.com)
+## 🧪 Optional Enhancements
 
----
+- Add Firebase/Backend to store real user submissions.
+- Admin dashboard to manage ambassador data.
+- Announcement backend with dynamic update support.
+- Email confirmations post-registration.
+
+
+
+
